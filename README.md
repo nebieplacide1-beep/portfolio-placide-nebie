@@ -2,4 +2,4 @@
 
 Portfolio personnel présentant profil, projets, expérience, certifications et formation.
 
-🔗 Voir le site en ligne : (lien à ajouter après activation de GitHub Pages)
+🔗 Voir le site en ligne : https://nebieplacide1-beep.github.io/portfolio-placide-nebie/
