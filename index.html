@@ -4,6 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Placide Nebié — Data Analyste Junior</title>
+<meta name="description" content="Data Analyste Junior & consultant en analyse de données, basé à Ouagadougou, disponible immédiatement. Excel, Power BI, SQL, Python, R — du diagnostic au livrable.">
+<meta name="theme-color" content="#080b12">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Placide Nebié — Data Analyste Junior & Consultant en Analyse de Données">
+<meta property="og:description" content="Je transforme des données brutes en décisions concrètes. Disponible immédiatement — Excel, Power BI, SQL, Python, R.">
+<meta property="og:image" content="https://nebieplacide1-beep.github.io/portfolio-placide-nebie/placide.jpg">
+<meta property="og:url" content="https://nebieplacide1-beep.github.io/portfolio-placide-nebie/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Placide Nebié — Data Analyste Junior">
+<meta name="twitter:description" content="Disponible immédiatement — Excel, Power BI, SQL, Python, R. Discutons sur WhatsApp.">
+<meta name="twitter:image" content="https://nebieplacide1-beep.github.io/portfolio-placide-nebie/placide.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -175,6 +186,35 @@
     border:1px solid var(--line); color:var(--text-hi); padding:12px 22px;
     border-radius:10px; text-decoration:none; font-size:14.5px; background:rgba(255,255,255,.02);
   }
+  .btn-whatsapp{
+    background:linear-gradient(120deg,#25d366,#1da851); color:#04170c; font-weight:600; padding:13px 24px;
+    border-radius:10px; text-decoration:none; font-size:14.5px; display:inline-flex; align-items:center; gap:8px;
+    box-shadow:0 8px 24px -8px rgba(37,211,102,.5);
+  }
+
+  /* ---------- mobile quick-contact bar ---------- */
+  .mobile-cta{display:none;}
+  @media (max-width:760px){
+    body{padding-bottom:76px;}
+    .mobile-cta{
+      display:flex; position:fixed; left:0; right:0; bottom:0; z-index:100; gap:8px;
+      background:rgba(8,11,18,.92); backdrop-filter:blur(14px);
+      border-top:1px solid var(--line-soft);
+      padding:9px 10px calc(9px + env(safe-area-inset-bottom));
+    }
+    .mcta-btn{
+      flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px;
+      text-decoration:none; font-size:10.5px; font-weight:600; line-height:1.15;
+      border-radius:12px; padding:9px 4px; border:1px solid var(--line); color:var(--text-hi);
+      background:rgba(255,255,255,.03);
+    }
+    .mcta-btn .ico{font-size:16px;}
+    .mcta-btn.wa{
+      background:linear-gradient(120deg,#25d366,#1da851); border-color:transparent; color:#04170c;
+      box-shadow:0 6px 18px -6px rgba(37,211,102,.55);
+    }
+    .mcta-btn.call{background:var(--grad); border-color:transparent; color:#06121a;}
+  }
 
   /* KPI row */
   .kpi-grid{
@@ -337,6 +377,7 @@
 
         <div class="hero-actions">
           <a class="btn-primary" href="#projects">Voir mes projets →</a>
+          <a class="btn-whatsapp" href="https://wa.me/22607881348?text=Bonjour%20Placide%2C%20j%27ai%20vu%20votre%20portfolio%20et%20j%27aimerais%20%C3%A9changer%20avec%20vous." target="_blank" rel="noopener">💬 Discuter sur WhatsApp</a>
           <a class="btn-ghost" href="mailto:nebieplacide1@gmail.com">Me contacter</a>
         </div>
       </div>
@@ -583,8 +624,9 @@
       <h2>Prêt à échanger sur votre besoin en analyse de données</h2>
       <p>Disponible immédiatement, au Burkina Faso comme à l'international. Réponse rapide par email, téléphone ou WhatsApp.</p>
       <div class="contact-row">
-        <a class="contact-item" href="mailto:nebieplacide1@gmail.com">✉ nebieplacide1@gmail.com</a>
+        <a class="contact-item" href="https://wa.me/22607881348?text=Bonjour%20Placide%2C%20j%27ai%20vu%20votre%20portfolio%20et%20j%27aimerais%20%C3%A9changer%20avec%20vous." target="_blank" rel="noopener">💬 WhatsApp</a>
         <a class="contact-item" href="tel:+22607881348">✆ +226 07 88 13 48</a>
+        <a class="contact-item" href="mailto:nebieplacide1@gmail.com">✉ nebieplacide1@gmail.com</a>
         <span class="contact-item">📍 Ouagadougou, Burkina Faso</span>
       </div>
       <div class="contact-row">
@@ -607,6 +649,12 @@
     © 2026 — <span class="name">NEBIE Placide</span> · Data Analyste Junior &amp; Consultant en Analyse de Données
   </div>
 </footer>
+
+<div class="mobile-cta" role="navigation" aria-label="Contact rapide">
+  <a class="mcta-btn call" href="tel:+22607881348"><span class="ico">📞</span><span>Appeler</span></a>
+  <a class="mcta-btn wa" href="https://wa.me/22607881348?text=Bonjour%20Placide%2C%20j%27ai%20vu%20votre%20portfolio%20et%20j%27aimerais%20%C3%A9changer%20avec%20vous." target="_blank" rel="noopener"><span class="ico">💬</span><span>WhatsApp</span></a>
+  <a class="mcta-btn mail" href="mailto:nebieplacide1@gmail.com"><span class="ico">✉</span><span>Email</span></a>
+</div>
 
 </body>
 </html>
