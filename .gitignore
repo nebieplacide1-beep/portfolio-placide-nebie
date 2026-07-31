@@ -1,0 +1,14 @@
+# Ce depot est public (GitHub Pages) : seuls les fichiers du portfolio
+# sont suivis. Tout le reste (CV, certificats, photos, documents perso
+# presents dans ce dossier de travail) est ignore par defaut.
+*
+
+# Fichiers systeme (au cas ou ils seraient un jour autorises ci-dessous)
+.DS_Store
+Thumbs.db
+
+# Fichiers du portfolio autorises
+!.gitignore
+!README.md
+!index.html
+!placide.jpg
